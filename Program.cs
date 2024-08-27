@@ -25,10 +25,12 @@ class Program
 		int Result;
 		FunctionParameter functionParameter3 = new FunctionParameter();
 		functionParameter3.Multiplication(5, 2, out Result);
+		Console.WriteLine($"Multiplication = {Result}");
 
 		// Input-Output Parameter 
 		int Result1=11;
 		FunctionParameter functionParameter4 = new FunctionParameter();
 		functionParameter4.Division(10,5,ref Result1);
+		Console.WriteLine($"Division = {Result1}");
 	}
 }

@@ -36,7 +36,6 @@ namespace Parameter
 		public void Multiplication(int a, int b, out int Result)
 		{
 			Result = a * b;
-			Console.WriteLine($"Multiplication Of {a} & {b} = {Result}");
 		}
 
 		#endregion
@@ -45,8 +44,7 @@ namespace Parameter
 
 		public void Division(int x, int y, ref int Result1)
 		{
-			int Result = Result1 + x / y;
-			Console.WriteLine($"Division Of {Result1} + {x} / {y}   = {Result}");
+			 Result1 = Result1 + x / y;
 		}
 
 		#endregion
